@@ -237,3 +237,41 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media queries to add responsiveness without using Bootstrap  */
+@media screen and (max-width:968px) {
+  .container {
+    max-width: 960px
+  }
+  .main-section {
+    max-width: 650px;
+  }
+  .body {
+    /* no changes for now */
+  }
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    max-width: 760px
+  }
+  .main-section {
+    max-width: 650px;
+  }
+  .body {
+    /* no changes */
+  }
+}
+
+@media screen and (max-width:640px) {
+  .container {
+    max-width: 640px
+  }
+  .main-section {
+    max-width: 400px;
+  }
+  .body {
+    /* no change but leave here just "in case" 
+  }
+}
+
