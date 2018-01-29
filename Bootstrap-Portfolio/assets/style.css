@@ -24,6 +24,11 @@
     color: #36A194;
 }
 
+.boxMessageInput {
+    /* min-width: 100%; */
+}
+
+
 /* size up all glyphicons right now, later on target only the ones I want */
 .gl-1-5x {  font-size: 1.5em; }
 .gl-2x {  font-size: 2em; }
